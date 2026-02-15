@@ -1,6 +1,14 @@
 # CheckPoint 1 (A_Brendhen_Canafaro_Lie_033)
 CheckPoint 1: Data Gathering &amp; Business Understanding
 
+# Import Library
+import pandas as pd
+
+# Memuat Dataset
+file = "LINK_RAW_GITHUB"
+df = pd.read_csv(file)
+df.head()
+
 # Business Understanding
 
 ## Business Objective
