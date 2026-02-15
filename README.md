@@ -5,7 +5,7 @@ CheckPoint 1: Data Gathering &amp; Business Understanding
 import pandas as pd
 
 # Memuat Dataset
-file = "LINK_RAW_GITHUB"
+file = "Finance E-Commerce Dirty Kaggle Dataset.csv"
 df = pd.read_csv(file)
 df.head()
 
