@@ -68,7 +68,7 @@ Dataset juga memuat **data merchant dan data pelanggan, **sehingga analisis pola
 Dataset ini memiliki data-data yang cukup besar yaitu, **6060 baris dan 23 kolom.**
 
 
-
+```python
 file = "/content/drive/MyDrive/Tugas-Tugas Praktikum/Tugas AVD/CheckPoint 1: Data Gathering & Business Understanding/Finance_Ecommerce_Dirty_Dataset_csv.csv"
 
 df = pd.read_csv(file)
@@ -83,4 +83,3 @@ Dari sebuah dataset terdapat sebuah informasi yang bisa dicari, dengan bagaimana
 Informasi dasar dari sebuah dataset yang bisa berupa **data type, jumlah baris kolom, data kosong, dan lainnya**. Berdasarkan data yang dibawah ini, dapat diketahui dari dataset ini adalah dataset ini memiliki **6060 baris dan 23 kolom.**
 
 df.info()
-
